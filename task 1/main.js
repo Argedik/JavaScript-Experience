@@ -1,7 +1,7 @@
 let fullName = prompt("Adınız Nedir?")
 
 
-function dijitalSaat(){
+function Hour(){
     var now = new Date()
     var hour = now.getHours()
     var minute = now.getMinutes()
@@ -16,4 +16,4 @@ function dijitalSaat(){
     return hour,user
 }
 
-setInterval(dijitalSaat, 1000)
+setInterval(Hour, 1000)
